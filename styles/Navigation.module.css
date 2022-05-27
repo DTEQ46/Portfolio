@@ -196,16 +196,16 @@
 }
 @media (max-width: 535px) {
   .animation img {
-    height: 60px;
-    width: 40px;
+    height: 55px;
+    width: 35px;
   }
   .name {
     font-size: 30px;
   }
   .picture img {
-    width: 150px;
-    height: 300px;
-    margin-top: 20px;
+    width: 130px;
+    height: 280px;
+    margin-top: 40px;
   }
 
   .react {
@@ -217,8 +217,18 @@
     height: 2rem;
   }
   .links {
-    width: 10rem;
+    width: 8.5rem;
     font-size: 12px;
+  }
+  .logo {
+    left: 15px;
+  }
+
+  .buttonCon {
+    right: 15px;
+  }
+  .intro {
+    left: -10px;
   }
 }
 
