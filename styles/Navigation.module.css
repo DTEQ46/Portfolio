@@ -34,6 +34,11 @@
   left: 25px;
 }
 
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+
 .buttonCon {
   position: relative;
   right: 25px;
@@ -195,6 +200,10 @@
   }
 }
 @media (max-width: 535px) {
+  .container {
+    padding: 1rem;
+  }
+
   .animation img {
     height: 55px;
     width: 35px;
@@ -212,9 +221,10 @@
     bottom: 20px;
   }
   .buttonCon button {
-    padding: 5px;
-    width: 5rem;
-    height: 2rem;
+    padding: 4px;
+    width: 4.5rem;
+    height: 1.8rem;
+    font-size: 12px;
   }
   .links {
     width: 8.5rem;
@@ -231,6 +241,10 @@
     left: -10px;
   }
 }
+.logo img {
+  height: 35px;
+  width: 35px;
+}
 
 @media (max-width: 450px) {
   .react {
@@ -241,6 +255,7 @@
   }
   .figma {
     bottom: 85px;
+    left: 1.5px;
   }
   .subContainer {
     height: 500px;
