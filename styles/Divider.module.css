@@ -1,0 +1,24 @@
+.divider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 167px;
+  height: 100px;
+  margin-bottom: 40px;
+}
+.dividerBar {
+  position: relative;
+  width: 40px;
+  height: 5px;
+  background: #0f90e5;
+  border-radius: 5px;
+}
+.dividerName {
+  width: 200px;
+  height: 60px;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #181818;
+}
