@@ -42,8 +42,9 @@
 }
 
 .links {
-  width: 8.5rem;
+  width: 9rem;
   display: flex;
+  font-size: 0.8rem;
   justify-content: space-between;
 }
 
@@ -221,10 +222,6 @@
     padding: 4px;
     width: 4.5rem;
     height: 1.8rem;
-    font-size: 0.8rem;
-  }
-  .links {
-    width: 9rem;
     font-size: 0.8rem;
   }
   .logo {
