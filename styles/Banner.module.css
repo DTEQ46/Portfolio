@@ -190,10 +190,6 @@
   }
 }
 @media (max-width: 535px) {
-  .container {
-    padding: 1rem;
-  }
-
   .animation img {
     height: 55px;
     width: 35px;

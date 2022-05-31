@@ -5,3 +5,8 @@
   padding: 2rem;
   background: #dae0e5;
 }
+@media (max-width: 535px) {
+  .container {
+    padding: 1rem;
+  }
+}
