@@ -42,7 +42,7 @@
 }
 
 .links {
-  width: 1.2rem;
+  width: 8.5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -224,7 +224,7 @@
     font-size: 0.8rem;
   }
   .links {
-    width: 8.5rem;
+    width: 9rem;
     font-size: 0.8rem;
   }
   .logo {
