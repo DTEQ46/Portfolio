@@ -7,7 +7,7 @@ function About() {
     <div>
       <Divider name="About Me" />
       <div className={styles.about}>
-        I am a Physicist turned programmer. I badged a bachelors degree in
+        I am a Physicist turned programmer. I badged Bachelor of Science in
         physics and electronics but ended up falling in love with programming.
       </div>
     </div>

@@ -14,7 +14,9 @@ function Projects({ project }) {
       <NextLink href={`${project.source}`} passHref>
         <CardActionArea>
           <CardContent>
-            <Typography variant="h4">{project.name}</Typography>
+            <Typography style={{ fontWeight: 'bold' }}>
+              {project.name}
+            </Typography>
           </CardContent>
           <CardMedia
             component="img"

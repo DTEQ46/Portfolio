@@ -1,12 +1,11 @@
 .about {
-  width: 944px;
+  max-width: 680px;
   height: 60px;
-
+  margin-bottom: 90px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 0.8rem;
   line-height: 30px;
-
   color: #181818;
 }

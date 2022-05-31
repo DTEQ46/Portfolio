@@ -18,6 +18,8 @@ import Divider from './Divider';
 import Projects from './Projects';
 import Technologies from './Technologies';
 import About from './About';
+import Connect from './Connect';
+import Footer from './Footer';
 
 function Navigation() {
   return (
@@ -72,6 +74,8 @@ function Navigation() {
       </Grid>
       <Technologies />
       <About />
+      <Connect />
+      <Footer />
     </div>
   );
 }

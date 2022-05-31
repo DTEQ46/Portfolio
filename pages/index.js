@@ -1,9 +1,5 @@
 import Head from 'next/head';
-import About from '../Components/About';
-import Banner from '../Components/Banner';
-import Footer from '../Components/Footer';
 import Navigation from '../Components/Navigation';
-import Projects from '../Components/Projects';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -15,10 +11,6 @@ export default function Home() {
         <link rel="icon" href="/images/logo.svg" />
       </Head>
       <Navigation />
-      {/* <Banner />
-      <Projects />
-      <About />
-      <Footer /> */}
     </div>
   );
 }
