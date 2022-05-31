@@ -42,7 +42,7 @@
 }
 
 .links {
-  width: 9rem;
+  width: 12rem;
   display: flex;
   font-size: 0.8rem;
   justify-content: space-between;
@@ -223,6 +223,9 @@
     width: 4.5rem;
     height: 1.8rem;
     font-size: 0.8rem;
+  }
+  .links {
+    width: 9rem;
   }
   .logo {
     left: 15px;
