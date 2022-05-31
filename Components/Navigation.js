@@ -10,12 +10,14 @@ import Banner from './Banner';
 function Navigation() {
   return (
     <div className={styles.container}>
-      <Banner />
-      <ProjectGrid />
-      <Technologies />
-      <About />
-      <Connect />
-      <Footer />
+      <div>
+        <Banner />
+        <ProjectGrid />
+        <Technologies />
+        <About />
+        <Connect />
+        <Footer />
+      </div>
     </div>
   );
 }
