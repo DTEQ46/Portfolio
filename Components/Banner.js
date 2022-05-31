@@ -2,27 +2,37 @@ import React from 'react';
 import NextLink from 'next/link';
 import { Link } from '@mui/material';
 import styles from '../styles/Banner.module.css';
+import { useRouter } from 'next/router';
 
 function Banner() {
+  const router = useRouter();
   return (
     <div className={styles.subContainer}>
-      <div className={styles.nav}>
+      <div id="home" className={styles.nav}>
         <div className={styles.logo}>
           <img src="/images/logo.svg"></img>
         </div>
         <div className={styles.links}>
-          <NextLink href="#home" passHref>
-            <Link style={{ textDecoration: 'none' }}>Home</Link>
-          </NextLink>
-          <NextLink href="#home" passHref>
-            <Link style={{ textDecoration: 'none' }}>Projects</Link>
-          </NextLink>
-          <NextLink href="#home" passHref>
-            <Link style={{ textDecoration: 'none' }}>About</Link>
-          </NextLink>
+          <Link href="#home" style={{ textDecoration: 'none' }}>
+            Home
+          </Link>
+
+          <Link href="#projects" style={{ textDecoration: 'none' }}>
+            Projects
+          </Link>
+
+          <Link href="#about" style={{ textDecoration: 'none' }}>
+            About
+          </Link>
         </div>
         <div className={styles.buttonCon}>
-          <button>Let's Talk</button>
+          <button
+            onClick={() => {
+              router.push('mailto:olasehindedaniel109@gmail.com');
+            }}
+          >
+            Let's Talk
+          </button>
         </div>
       </div>
       <div className={styles.intro}>

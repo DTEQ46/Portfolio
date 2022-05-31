@@ -6,7 +6,7 @@ import data from '../utils/data';
 
 function ProjectGrid() {
   return (
-    <div>
+    <div id="projects">
       <Divider name="Projects" />
       <Grid container spacing={4} style={{ marginBottom: '90px' }}>
         {data.map((project) => (

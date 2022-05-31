@@ -12,10 +12,34 @@ function Connect() {
     <div>
       <Divider name="Let's Connect" />
       <div className={styles.icons}>
-        <EmailIcon className={styles.Mui} />
-        <GitHubIcon className={styles.Mui} />
-        <LinkedInIcon className={styles.Mui} />
-        <TwitterIcon className={styles.Mui} />
+        <a
+          target="_blank"
+          href="mailto:olasehindedaniel109@gmail.com"
+          rel="noopener noreferrer"
+        >
+          <EmailIcon className={styles.Mui} />
+        </a>
+        <a
+          target="_blank"
+          href="https://github.com/DTEQ46"
+          rel="noopener noreferrer"
+        >
+          <GitHubIcon className={styles.Mui} />
+        </a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/olasehinde-daniel-89399b1b6/"
+          rel="noopener noreferrer"
+        >
+          <LinkedInIcon className={styles.Mui} />
+        </a>
+        <a
+          target="_blank"
+          href="https://twitter.com/danitex46"
+          rel="noopener noreferrer"
+        >
+          <TwitterIcon className={styles.Mui} />
+        </a>
       </div>
     </div>
   );

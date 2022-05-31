@@ -4,7 +4,7 @@ import styles from '../styles/About.module.css';
 
 function About() {
   return (
-    <div>
+    <div id="about">
       <Divider name="About Me" />
       <div className={styles.about}>
         I am a Physicist turned programmer. I badged Bachelor of Science in

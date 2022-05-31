@@ -14,17 +14,19 @@ function Technologies() {
         I have worked with a range of technologies in the web development world,
         from backend to design.
       </div>
-      <Grid container spacing={4} style={{ marginBottom: '40px' }}>
+      <Grid container spacing={4} style={{ marginBottom: '90px' }}>
         <Grid item md={4}>
           <GridViewIcon />
           <div className={styles.techType}>Front-End</div>
-          <div className={styles.techTypeDisc}>Experience with react js</div>
+          <div className={styles.techTypeDisc}>
+            Experience with HTML, CSS, JavaScript, React Js and Next Js
+          </div>
         </Grid>
         <Grid item md={4}>
           <StorageIcon />
           <div className={styles.techType}>Back-End</div>
           <div className={styles.techTypeDisc}>
-            Experience with Nodejs and databases
+            Experience with Nodejs, Express and databases
           </div>
         </Grid>
         <Grid item md={4}>

@@ -11,7 +11,7 @@ import React from 'react';
 function Projects({ project }) {
   return (
     <Card>
-      <NextLink href={`${project.source}`} passHref>
+      <a target="_blank" href={`${project.source}`} rel="noopener noreferrer">
         <CardActionArea>
           <CardContent>
             <Typography style={{ fontWeight: 'bold' }}>
@@ -24,7 +24,7 @@ function Projects({ project }) {
             title={project.name}
           ></CardMedia>
         </CardActionArea>
-      </NextLink>
+      </a>
     </Card>
   );
 }
