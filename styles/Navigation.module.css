@@ -1,12 +1,10 @@
-.container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding: 2rem;
-  background: #dae0e5;
-}
-@media (max-width: 535px) {
-  .container {
-    padding: 1rem;
-  }
+.navigation{
+    background-color: inherit;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
